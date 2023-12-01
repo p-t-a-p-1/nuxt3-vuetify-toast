@@ -1,4 +1,4 @@
-# Nuxt3 + Vuetify Starter Project
+# Nuxt3 + Vuetify + Toast
 
 - Nuxt3
 - Vuetify
