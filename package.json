@@ -36,5 +36,9 @@
   },
   "volta": {
     "node": "20.0.0"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.5.1",
+    "pinia": "^2.1.7"
   }
 }

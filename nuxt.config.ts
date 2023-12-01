@@ -1,5 +1,5 @@
-import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
 import path from 'path'
+import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
@@ -26,7 +26,7 @@ export default defineNuxtConfig({
         config.plugins.push(vuetify({ autoImport: true }))
       })
     },
-    //...
+    '@pinia/nuxt',
   ],
 
   vite: {
